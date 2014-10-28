@@ -1,0 +1,490 @@
+[Thu Oct 23 22:09:28.679805 2014] [:error] [pid 2861] [client 127.0.0.1:36140] PHP Fatal error:  require_once(): Failed opening required '/var/www/igniter.loc/system/database/drivers/mysqls/mysqls_driver.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/igniter.loc/system/database/DB.php on line 140
+[Thu Oct 23 22:09:28.679870 2014] [:error] [pid 2861] [client 127.0.0.1:36140] PHP Stack trace:
+[Thu Oct 23 22:09:28.679886 2014] [:error] [pid 2861] [client 127.0.0.1:36140] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Thu Oct 23 22:09:28.679895 2014] [:error] [pid 2861] [client 127.0.0.1:36140] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Thu Oct 23 22:09:28.679905 2014] [:error] [pid 2861] [client 127.0.0.1:36140] PHP   3. Welcome->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Thu Oct 23 22:09:28.679913 2014] [:error] [pid 2861] [client 127.0.0.1:36140] PHP   4. Main->__construct() /var/www/igniter.loc/application/controllers/welcome.php:12
+[Thu Oct 23 22:09:28.679920 2014] [:error] [pid 2861] [client 127.0.0.1:36140] PHP   5. CI_Loader->database() /var/www/igniter.loc/application/controllers/parent/main.php:16
+[Thu Oct 23 22:09:28.679927 2014] [:error] [pid 2861] [client 127.0.0.1:36140] PHP   6. DB() /var/www/igniter.loc/system/core/Loader.php:346
+[Fri Oct 24 19:49:36.671175 2014] [:error] [pid 3528] [client 127.0.0.1:42324] PHP Fatal error:  Class 'Maine' not found in /var/www/igniter.loc/application/controllers/ajax.php on line 3
+[Fri Oct 24 19:49:36.671227 2014] [:error] [pid 3528] [client 127.0.0.1:42324] PHP Stack trace:
+[Fri Oct 24 19:49:36.671238 2014] [:error] [pid 3528] [client 127.0.0.1:42324] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 19:49:36.671243 2014] [:error] [pid 3528] [client 127.0.0.1:42324] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 19:49:36.671248 2014] [:error] [pid 3528] [client 127.0.0.1:42324] PHP   3. include() /var/www/igniter.loc/system/core/CodeIgniter.php:250
+[Fri Oct 24 20:04:41.199255 2014] [:error] [pid 3520] [client 127.0.0.1:42464] PHP Parse error:  syntax error, unexpected ')' in /var/www/igniter.loc/application/controllers/ajax.php on line 3
+[Fri Oct 24 20:04:41.199297 2014] [:error] [pid 3520] [client 127.0.0.1:42464] PHP Stack trace:
+[Fri Oct 24 20:04:41.199308 2014] [:error] [pid 3520] [client 127.0.0.1:42464] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:04:41.199313 2014] [:error] [pid 3520] [client 127.0.0.1:42464] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:04:55.017850 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP Fatal error:  Call to undefined function rest_get() in /var/www/igniter.loc/application/controllers/ajax.php on line 23
+[Fri Oct 24 20:04:55.017901 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP Stack trace:
+[Fri Oct 24 20:04:55.017911 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:04:55.017916 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:04:55.017922 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Fri Oct 24 20:04:55.017928 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   4. Ajax->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Fri Oct 24 20:04:56.003274 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP Fatal error:  Call to undefined function rest_get() in /var/www/igniter.loc/application/controllers/ajax.php on line 23
+[Fri Oct 24 20:04:56.003310 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP Stack trace:
+[Fri Oct 24 20:04:56.003318 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:04:56.003324 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:04:56.003329 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Fri Oct 24 20:04:56.003363 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   4. Ajax->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Fri Oct 24 20:04:56.201683 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP Fatal error:  Call to undefined function rest_get() in /var/www/igniter.loc/application/controllers/ajax.php on line 23
+[Fri Oct 24 20:04:56.201726 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP Stack trace:
+[Fri Oct 24 20:04:56.201737 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:04:56.201743 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:04:56.201750 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Fri Oct 24 20:04:56.201757 2014] [:error] [pid 3485] [client 127.0.0.1:42465] PHP   4. Ajax->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Fri Oct 24 20:06:48.257426 2014] [:error] [pid 3557] [client 127.0.0.1:42471] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /var/www/igniter.loc/application/controllers/ajax.php on line 14
+[Fri Oct 24 20:06:48.257511 2014] [:error] [pid 3557] [client 127.0.0.1:42471] PHP Stack trace:
+[Fri Oct 24 20:06:48.257541 2014] [:error] [pid 3557] [client 127.0.0.1:42471] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:06:48.257558 2014] [:error] [pid 3557] [client 127.0.0.1:42471] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:12:55.032968 2014] [:error] [pid 3557] [client 127.0.0.1:42492] PHP Fatal error:  Call to undefined function redirect() in /var/www/igniter.loc/application/controllers/ajax.php on line 3
+[Fri Oct 24 20:12:55.033014 2014] [:error] [pid 3557] [client 127.0.0.1:42492] PHP Stack trace:
+[Fri Oct 24 20:12:55.033021 2014] [:error] [pid 3557] [client 127.0.0.1:42492] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:12:55.033026 2014] [:error] [pid 3557] [client 127.0.0.1:42492] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:12:55.033030 2014] [:error] [pid 3557] [client 127.0.0.1:42492] PHP   3. include() /var/www/igniter.loc/system/core/CodeIgniter.php:250
+[Fri Oct 24 20:13:15.983490 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Fatal error:  Call to undefined function redirect() in /var/www/igniter.loc/application/controllers/ajax.php on line 8
+[Fri Oct 24 20:13:15.983536 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Stack trace:
+[Fri Oct 24 20:13:15.983545 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:13:15.983552 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:13:15.983557 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   3. Ajax->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Fri Oct 24 20:13:16.929211 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Fatal error:  Call to undefined function redirect() in /var/www/igniter.loc/application/controllers/ajax.php on line 8
+[Fri Oct 24 20:13:16.929258 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Stack trace:
+[Fri Oct 24 20:13:16.929266 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:13:16.929271 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:13:16.929276 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   3. Ajax->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Fri Oct 24 20:13:17.106488 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Fatal error:  Call to undefined function redirect() in /var/www/igniter.loc/application/controllers/ajax.php on line 8
+[Fri Oct 24 20:13:17.106560 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Stack trace:
+[Fri Oct 24 20:13:17.106570 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:13:17.106574 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:13:17.106579 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   3. Ajax->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Fri Oct 24 20:13:17.532525 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Fatal error:  Call to undefined function redirect() in /var/www/igniter.loc/application/controllers/ajax.php on line 8
+[Fri Oct 24 20:13:17.532603 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Stack trace:
+[Fri Oct 24 20:13:17.532628 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:13:17.532645 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:13:17.532664 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   3. Ajax->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Fri Oct 24 20:13:17.688728 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Fatal error:  Call to undefined function redirect() in /var/www/igniter.loc/application/controllers/ajax.php on line 8
+[Fri Oct 24 20:13:17.688777 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Stack trace:
+[Fri Oct 24 20:13:17.688790 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:13:17.688798 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:13:17.688806 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   3. Ajax->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Fri Oct 24 20:13:17.892200 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Fatal error:  Call to undefined function redirect() in /var/www/igniter.loc/application/controllers/ajax.php on line 8
+[Fri Oct 24 20:13:17.892261 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Stack trace:
+[Fri Oct 24 20:13:17.892286 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:13:17.892303 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:13:17.892324 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   3. Ajax->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Fri Oct 24 20:13:18.054419 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Fatal error:  Call to undefined function redirect() in /var/www/igniter.loc/application/controllers/ajax.php on line 8
+[Fri Oct 24 20:13:18.054490 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Stack trace:
+[Fri Oct 24 20:13:18.054515 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:13:18.054532 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:13:18.054551 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   3. Ajax->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Fri Oct 24 20:13:18.197275 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Fatal error:  Call to undefined function redirect() in /var/www/igniter.loc/application/controllers/ajax.php on line 8
+[Fri Oct 24 20:13:18.197320 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP Stack trace:
+[Fri Oct 24 20:13:18.197328 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Fri Oct 24 20:13:18.197333 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Fri Oct 24 20:13:18.197338 2014] [:error] [pid 3611] [client 127.0.0.1:42496] PHP   3. Ajax->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Sun Oct 26 01:21:26.030757 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133431296 bytes) in /var/www/igniter.loc/application/views/admin_show_template.php on line 23
+[Sun Oct 26 01:21:26.046535 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP Stack trace:
+[Sun Oct 26 01:21:26.046585 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Sun Oct 26 01:21:26.046594 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Sun Oct 26 01:21:26.046604 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Sun Oct 26 01:21:26.046613 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   4. Admin->members() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Sun Oct 26 01:21:26.046621 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   5. Adminmain->showPage() /var/www/igniter.loc/application/controllers/admin.php:36
+[Sun Oct 26 01:21:26.046630 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   6. CI_Parser->parse() /var/www/igniter.loc/application/controllers/parent/adminmain.php:27
+[Sun Oct 26 01:21:26.046638 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   7. CI_Loader->view() /var/www/igniter.loc/system/libraries/Parser.php:48
+[Sun Oct 26 01:21:26.046646 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   8. CI_Loader->_ci_load() /var/www/igniter.loc/system/core/Loader.php:419
+[Sun Oct 26 01:21:26.046653 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   9. include() /var/www/igniter.loc/system/core/Loader.php:833
+[Sun Oct 26 01:21:27.811340 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133431296 bytes) in /var/www/igniter.loc/application/views/admin_show_template.php on line 23
+[Sun Oct 26 01:21:27.811392 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP Stack trace:
+[Sun Oct 26 01:21:27.811404 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Sun Oct 26 01:21:27.811410 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Sun Oct 26 01:21:27.811415 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Sun Oct 26 01:21:27.811425 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   4. Admin->members() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Sun Oct 26 01:21:27.811432 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   5. Adminmain->showPage() /var/www/igniter.loc/application/controllers/admin.php:36
+[Sun Oct 26 01:21:27.811437 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   6. CI_Parser->parse() /var/www/igniter.loc/application/controllers/parent/adminmain.php:27
+[Sun Oct 26 01:21:27.811443 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   7. CI_Loader->view() /var/www/igniter.loc/system/libraries/Parser.php:48
+[Sun Oct 26 01:21:27.811448 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   8. CI_Loader->_ci_load() /var/www/igniter.loc/system/core/Loader.php:419
+[Sun Oct 26 01:21:27.811452 2014] [:error] [pid 7720] [client 127.0.0.1:45124] PHP   9. include() /var/www/igniter.loc/system/core/Loader.php:833
+[Sun Oct 26 01:21:47.175753 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133431296 bytes) in /var/www/igniter.loc/application/views/admin_show_template.php on line 23
+[Sun Oct 26 01:21:47.175816 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP Stack trace:
+[Sun Oct 26 01:21:47.175827 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Sun Oct 26 01:21:47.175832 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Sun Oct 26 01:21:47.193126 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Sun Oct 26 01:21:47.193152 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP   4. Admin->members() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Sun Oct 26 01:21:47.193162 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP   5. Adminmain->showPage() /var/www/igniter.loc/application/controllers/admin.php:36
+[Sun Oct 26 01:21:47.193170 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP   6. CI_Parser->parse() /var/www/igniter.loc/application/controllers/parent/adminmain.php:27
+[Sun Oct 26 01:21:47.193178 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP   7. CI_Loader->view() /var/www/igniter.loc/system/libraries/Parser.php:48
+[Sun Oct 26 01:21:47.193186 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP   8. CI_Loader->_ci_load() /var/www/igniter.loc/system/core/Loader.php:419
+[Sun Oct 26 01:21:47.193193 2014] [:error] [pid 8868] [client 127.0.0.1:45125] PHP   9. include() /var/www/igniter.loc/system/core/Loader.php:833
+[Sun Oct 26 01:21:47.456424 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133431296 bytes) in /var/www/igniter.loc/application/views/admin_show_template.php on line 23
+[Sun Oct 26 01:21:47.456508 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP Stack trace:
+[Sun Oct 26 01:21:47.456523 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Sun Oct 26 01:21:47.456587 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Sun Oct 26 01:21:47.456593 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Sun Oct 26 01:21:47.456633 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP   4. Admin->members() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Sun Oct 26 01:21:47.456639 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP   5. Adminmain->showPage() /var/www/igniter.loc/application/controllers/admin.php:36
+[Sun Oct 26 01:21:47.456645 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP   6. CI_Parser->parse() /var/www/igniter.loc/application/controllers/parent/adminmain.php:27
+[Sun Oct 26 01:21:47.456650 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP   7. CI_Loader->view() /var/www/igniter.loc/system/libraries/Parser.php:48
+[Sun Oct 26 01:21:47.456654 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP   8. CI_Loader->_ci_load() /var/www/igniter.loc/system/core/Loader.php:419
+[Sun Oct 26 01:21:47.456659 2014] [:error] [pid 8786] [client 127.0.0.1:45126] PHP   9. include() /var/www/igniter.loc/system/core/Loader.php:833
+[Sun Oct 26 01:21:47.549672 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133431296 bytes) in /var/www/igniter.loc/application/views/admin_show_template.php on line 23
+[Sun Oct 26 01:21:47.549732 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP Stack trace:
+[Sun Oct 26 01:21:47.549746 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Sun Oct 26 01:21:47.549752 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Sun Oct 26 01:21:47.549757 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Sun Oct 26 01:21:47.549763 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP   4. Admin->members() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Sun Oct 26 01:21:47.549769 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP   5. Adminmain->showPage() /var/www/igniter.loc/application/controllers/admin.php:36
+[Sun Oct 26 01:21:47.549774 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP   6. CI_Parser->parse() /var/www/igniter.loc/application/controllers/parent/adminmain.php:27
+[Sun Oct 26 01:21:47.549804 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP   7. CI_Loader->view() /var/www/igniter.loc/system/libraries/Parser.php:48
+[Sun Oct 26 01:21:47.549809 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP   8. CI_Loader->_ci_load() /var/www/igniter.loc/system/core/Loader.php:419
+[Sun Oct 26 01:21:47.549813 2014] [:error] [pid 8820] [client 127.0.0.1:45127] PHP   9. include() /var/www/igniter.loc/system/core/Loader.php:833
+[Sun Oct 26 02:22:55.108140 2014] [:error] [pid 9268] [client 127.0.0.1:45991] PHP Fatal error:  Call to undefined method CI_Input::g2et() in /var/www/igniter.loc/application/controllers/admin.php on line 29, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:22:55.122364 2014] [:error] [pid 9268] [client 127.0.0.1:45991] PHP Stack trace:, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:22:55.122433 2014] [:error] [pid 9268] [client 127.0.0.1:45991] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:22:55.122455 2014] [:error] [pid 9268] [client 127.0.0.1:45991] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:22:55.122474 2014] [:error] [pid 9268] [client 127.0.0.1:45991] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:22:55.122494 2014] [:error] [pid 9268] [client 127.0.0.1:45991] PHP   4. Admin->members() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:23:03.959708 2014] [:error] [pid 9264] [client 127.0.0.1:45992] PHP Fatal error:  Call to undefined method Admin::input() in /var/www/igniter.loc/application/controllers/admin.php on line 29, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:23:03.959755 2014] [:error] [pid 9264] [client 127.0.0.1:45992] PHP Stack trace:, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:23:03.959768 2014] [:error] [pid 9264] [client 127.0.0.1:45992] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:23:03.959777 2014] [:error] [pid 9264] [client 127.0.0.1:45992] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:23:03.959782 2014] [:error] [pid 9264] [client 127.0.0.1:45992] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:23:03.959787 2014] [:error] [pid 9264] [client 127.0.0.1:45992] PHP   4. Admin->members() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:51:53.153960 2014] [:error] [pid 9264] [client 127.0.0.1:46337] PHP Fatal error:  Class 'Paginator' not found in /var/www/igniter.loc/application/controllers/admin.php on line 30, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:51:53.160080 2014] [:error] [pid 9264] [client 127.0.0.1:46337] PHP Stack trace:, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:51:53.160153 2014] [:error] [pid 9264] [client 127.0.0.1:46337] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:51:53.160176 2014] [:error] [pid 9264] [client 127.0.0.1:46337] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:51:53.160194 2014] [:error] [pid 9264] [client 127.0.0.1:46337] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:51:53.160215 2014] [:error] [pid 9264] [client 127.0.0.1:46337] PHP   4. Admin->members() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/admin/women
+[Sun Oct 26 02:59:29.672033 2014] [:error] [pid 9795] [client 127.0.0.1:46413] PHP Fatal error:  Call to undefined method Admin::paginator() in /var/www/igniter.loc/application/controllers/admin.php on line 32, referer: http://igniter.loc/admin/man
+[Sun Oct 26 02:59:29.685527 2014] [:error] [pid 9795] [client 127.0.0.1:46413] PHP Stack trace:, referer: http://igniter.loc/admin/man
+[Sun Oct 26 02:59:29.685594 2014] [:error] [pid 9795] [client 127.0.0.1:46413] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/admin/man
+[Sun Oct 26 02:59:29.685618 2014] [:error] [pid 9795] [client 127.0.0.1:46413] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/admin/man
+[Sun Oct 26 02:59:29.685637 2014] [:error] [pid 9795] [client 127.0.0.1:46413] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/admin/man
+[Sun Oct 26 02:59:29.685656 2014] [:error] [pid 9795] [client 127.0.0.1:46413] PHP   4. Admin->members() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/admin/man
+[Sun Oct 26 03:19:24.966643 2014] [:error] [pid 9905] [client 127.0.0.1:46662] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /var/www/igniter.loc/application/controllers/admin.php on line 30
+[Sun Oct 26 03:19:24.975280 2014] [:error] [pid 9905] [client 127.0.0.1:46662] PHP Stack trace:
+[Sun Oct 26 03:19:24.975355 2014] [:error] [pid 9905] [client 127.0.0.1:46662] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Sun Oct 26 03:19:24.975378 2014] [:error] [pid 9905] [client 127.0.0.1:46662] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Sun Oct 26 03:19:35.265986 2014] [:error] [pid 9934] [client 127.0.0.1:46663] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /var/www/igniter.loc/application/controllers/admin.php on line 30
+[Sun Oct 26 03:19:35.266043 2014] [:error] [pid 9934] [client 127.0.0.1:46663] PHP Stack trace:
+[Sun Oct 26 03:19:35.266056 2014] [:error] [pid 9934] [client 127.0.0.1:46663] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Sun Oct 26 03:19:35.266062 2014] [:error] [pid 9934] [client 127.0.0.1:46663] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Sun Oct 26 03:19:53.211871 2014] [:error] [pid 9472] [client 127.0.0.1:46664] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /var/www/igniter.loc/application/controllers/admin.php on line 30
+[Sun Oct 26 03:19:53.211960 2014] [:error] [pid 9472] [client 127.0.0.1:46664] PHP Stack trace:
+[Sun Oct 26 03:19:53.211992 2014] [:error] [pid 9472] [client 127.0.0.1:46664] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Sun Oct 26 03:19:53.212010 2014] [:error] [pid 9472] [client 127.0.0.1:46664] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Sun Oct 26 14:43:28.483619 2014] [:error] [pid 4458] [client 127.0.0.1:50236] PHP Fatal error:  Call to undefined function redirect() in /var/www/igniter.loc/application/controllers/posthandler.php on line 9
+[Sun Oct 26 14:43:28.490945 2014] [:error] [pid 4458] [client 127.0.0.1:50236] PHP Stack trace:
+[Sun Oct 26 14:43:28.491018 2014] [:error] [pid 4458] [client 127.0.0.1:50236] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Sun Oct 26 14:43:28.491039 2014] [:error] [pid 4458] [client 127.0.0.1:50236] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Sun Oct 26 14:43:28.491058 2014] [:error] [pid 4458] [client 127.0.0.1:50236] PHP   3. Posthandler->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Sun Oct 26 16:42:53.733512 2014] [:error] [pid 4499] [client 127.0.0.1:50989] PHP Warning:  POST Content-Length of 11928601 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.343873 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP Fatal error:  Cannot redeclare __autoload() (previously declared in /var/www/igniter.loc/application/config/config.php:23) in /var/www/igniter.loc/application/config/config.php on line 23, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371244 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP Stack trace:, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371320 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371342 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371360 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP   3. load_class() /var/www/igniter.loc/system/core/CodeIgniter.php:115, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371378 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP   4. config_item() /var/www/igniter.loc/system/core/Common.php:153, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371395 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP   5. get_config() /var/www/igniter.loc/system/core/Common.php:277, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371411 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP   6. require() /var/www/igniter.loc/system/core/Common.php:237, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371427 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP   7. _exception_handler() /var/www/igniter.loc/system/core/Common.php:373, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371443 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP   8. load_class() /var/www/igniter.loc/system/core/Common.php:481, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371459 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP   9. config_item() /var/www/igniter.loc/system/core/Common.php:153, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:11.371475 2014] [:error] [pid 5494] [client 127.0.0.1:51829] PHP  10. get_config() /var/www/igniter.loc/system/core/Common.php:277, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149058 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP Fatal error:  Cannot redeclare __autoload() (previously declared in /var/www/igniter.loc/application/config/config.php:23) in /var/www/igniter.loc/application/config/config.php on line 23, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149163 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP Stack trace:, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149201 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149222 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149241 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP   3. load_class() /var/www/igniter.loc/system/core/CodeIgniter.php:115, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149259 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP   4. config_item() /var/www/igniter.loc/system/core/Common.php:153, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149275 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP   5. get_config() /var/www/igniter.loc/system/core/Common.php:277, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149291 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP   6. require() /var/www/igniter.loc/system/core/Common.php:237, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149306 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP   7. _exception_handler() /var/www/igniter.loc/system/core/Common.php:373, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149322 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP   8. load_class() /var/www/igniter.loc/system/core/Common.php:481, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149370 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP   9. config_item() /var/www/igniter.loc/system/core/Common.php:153, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:21:20.149387 2014] [:error] [pid 6747] [client 127.0.0.1:51830] PHP  10. get_config() /var/www/igniter.loc/system/core/Common.php:277, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491619 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP Fatal error:  Cannot redeclare __autoload() (previously declared in /var/www/igniter.loc/application/config/config.php:23) in /var/www/igniter.loc/application/config/config.php on line 23, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491686 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP Stack trace:, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491702 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491712 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491721 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP   3. load_class() /var/www/igniter.loc/system/core/CodeIgniter.php:115, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491729 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP   4. config_item() /var/www/igniter.loc/system/core/Common.php:153, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491736 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP   5. get_config() /var/www/igniter.loc/system/core/Common.php:277, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491743 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP   6. require() /var/www/igniter.loc/system/core/Common.php:237, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491750 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP   7. _exception_handler() /var/www/igniter.loc/system/core/Common.php:373, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491757 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP   8. load_class() /var/www/igniter.loc/system/core/Common.php:481, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491764 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP   9. config_item() /var/www/igniter.loc/system/core/Common.php:153, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:01.491771 2014] [:error] [pid 5646] [client 127.0.0.1:51831] PHP  10. get_config() /var/www/igniter.loc/system/core/Common.php:277, referer: http://igniter.loc/id_xh2u72k2/
+[Sun Oct 26 19:22:06.951317 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP Fatal error:  Cannot redeclare __autoload() (previously declared in /var/www/igniter.loc/application/config/config.php:23) in /var/www/igniter.loc/application/config/config.php on line 23
+[Sun Oct 26 19:22:06.951398 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP Stack trace:
+[Sun Oct 26 19:22:06.951427 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Sun Oct 26 19:22:06.951447 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Sun Oct 26 19:22:06.951465 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP   3. load_class() /var/www/igniter.loc/system/core/CodeIgniter.php:115
+[Sun Oct 26 19:22:06.951482 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP   4. config_item() /var/www/igniter.loc/system/core/Common.php:153
+[Sun Oct 26 19:22:06.951498 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP   5. get_config() /var/www/igniter.loc/system/core/Common.php:277
+[Sun Oct 26 19:22:06.951514 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP   6. require() /var/www/igniter.loc/system/core/Common.php:237
+[Sun Oct 26 19:22:06.951530 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP   7. _exception_handler() /var/www/igniter.loc/system/core/Common.php:373
+[Sun Oct 26 19:22:06.951583 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP   8. load_class() /var/www/igniter.loc/system/core/Common.php:481
+[Sun Oct 26 19:22:06.951599 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP   9. config_item() /var/www/igniter.loc/system/core/Common.php:153
+[Sun Oct 26 19:22:06.951615 2014] [:error] [pid 4496] [client 127.0.0.1:51832] PHP  10. get_config() /var/www/igniter.loc/system/core/Common.php:277
+[Mon Oct 27 01:30:00.218703 2014] [:error] [pid 7628] [client 127.0.0.1:57434] PHP Fatal error:  Call to undefined function hash_pass() in /var/www/igniter.loc/application/controllers/ajax.php on line 15, referer: http://igniter.loc/register
+[Mon Oct 27 01:30:00.224037 2014] [:error] [pid 7628] [client 127.0.0.1:57434] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 01:30:00.224095 2014] [:error] [pid 7628] [client 127.0.0.1:57434] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 01:30:00.224103 2014] [:error] [pid 7628] [client 127.0.0.1:57434] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 01:30:00.224108 2014] [:error] [pid 7628] [client 127.0.0.1:57434] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 01:30:00.224115 2014] [:error] [pid 7628] [client 127.0.0.1:57434] PHP   4. Ajax->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 01:41:16.637055 2014] [:error] [pid 9611] [client 127.0.0.1:57712] PHP Fatal error:  Call to undefined method Model_users::regManValidation() in /var/www/igniter.loc/application/controllers/ajax.php on line 15, referer: http://igniter.loc/register
+[Mon Oct 27 01:41:16.637120 2014] [:error] [pid 9611] [client 127.0.0.1:57712] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 01:41:16.637136 2014] [:error] [pid 9611] [client 127.0.0.1:57712] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 01:41:16.637142 2014] [:error] [pid 9611] [client 127.0.0.1:57712] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 01:41:16.637148 2014] [:error] [pid 9611] [client 127.0.0.1:57712] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 01:41:16.637155 2014] [:error] [pid 9611] [client 127.0.0.1:57712] PHP   4. Ajax->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:04.252870 2014] [:error] [pid 12351] [client 127.0.0.1:59429] PHP Fatal error:  Class 'User' not found in /var/www/igniter.loc/system/database/DB_result.php on line 81, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:04.270019 2014] [:error] [pid 12351] [client 127.0.0.1:59429] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:04.270095 2014] [:error] [pid 12351] [client 127.0.0.1:59429] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:04.270118 2014] [:error] [pid 12351] [client 127.0.0.1:59429] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:04.270137 2014] [:error] [pid 12351] [client 127.0.0.1:59429] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:04.270157 2014] [:error] [pid 12351] [client 127.0.0.1:59429] PHP   4. Ajax->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:04.270177 2014] [:error] [pid 12351] [client 127.0.0.1:59429] PHP   5. Model_users->regManValidation() /var/www/igniter.loc/application/controllers/ajax.php:17, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:04.270195 2014] [:error] [pid 12351] [client 127.0.0.1:59429] PHP   6. CI_DB_result->result() /var/www/igniter.loc/application/models/model_users.php:34, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:04.285982 2014] [:error] [pid 12351] [client 127.0.0.1:59429] PHP   7. CI_DB_result->custom_result_object() /var/www/igniter.loc/system/database/DB_result.php:52, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:12.692867 2014] [:error] [pid 9688] [client 127.0.0.1:59430] PHP Fatal error:  Class 'Users' not found in /var/www/igniter.loc/system/database/DB_result.php on line 81, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:12.692972 2014] [:error] [pid 9688] [client 127.0.0.1:59430] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:12.692987 2014] [:error] [pid 9688] [client 127.0.0.1:59430] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:12.692992 2014] [:error] [pid 9688] [client 127.0.0.1:59430] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:12.692997 2014] [:error] [pid 9688] [client 127.0.0.1:59430] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:12.693003 2014] [:error] [pid 9688] [client 127.0.0.1:59430] PHP   4. Ajax->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:12.693008 2014] [:error] [pid 9688] [client 127.0.0.1:59430] PHP   5. Model_users->regManValidation() /var/www/igniter.loc/application/controllers/ajax.php:17, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:12.693013 2014] [:error] [pid 9688] [client 127.0.0.1:59430] PHP   6. CI_DB_result->result() /var/www/igniter.loc/application/models/model_users.php:34, referer: http://igniter.loc/register
+[Mon Oct 27 15:54:12.693018 2014] [:error] [pid 9688] [client 127.0.0.1:59430] PHP   7. CI_DB_result->custom_result_object() /var/www/igniter.loc/system/database/DB_result.php:52, referer: http://igniter.loc/register
+[Mon Oct 27 17:59:14.583675 2014] [:error] [pid 9595] [client 127.0.0.1:59892] PHP Fatal error:  Call to a member function addMemberMan() on a non-object in /var/www/igniter.loc/application/controllers/posthandler.php on line 41, referer: http://igniter.loc/register
+[Mon Oct 27 17:59:14.597827 2014] [:error] [pid 9595] [client 127.0.0.1:59892] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 17:59:14.597902 2014] [:error] [pid 9595] [client 127.0.0.1:59892] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 17:59:14.597924 2014] [:error] [pid 9595] [client 127.0.0.1:59892] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 17:59:14.597943 2014] [:error] [pid 9595] [client 127.0.0.1:59892] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 17:59:14.597963 2014] [:error] [pid 9595] [client 127.0.0.1:59892] PHP   4. Posthandler->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 18:27:30.250471 2014] [:error] [pid 9589] [client 127.0.0.1:60402] PHP Fatal error:  Call to undefined function hash_pass() in /var/www/igniter.loc/application/models/model_users.php on line 77, referer: http://igniter.loc/register
+[Mon Oct 27 18:27:30.279203 2014] [:error] [pid 9589] [client 127.0.0.1:60402] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 18:27:30.279375 2014] [:error] [pid 9589] [client 127.0.0.1:60402] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 18:27:30.279398 2014] [:error] [pid 9589] [client 127.0.0.1:60402] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 18:27:30.279417 2014] [:error] [pid 9589] [client 127.0.0.1:60402] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 18:27:30.293602 2014] [:error] [pid 9589] [client 127.0.0.1:60402] PHP   4. Posthandler->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 18:27:30.293650 2014] [:error] [pid 9589] [client 127.0.0.1:60402] PHP   5. Model_users->addMemberMan() /var/www/igniter.loc/application/controllers/posthandler.php:41, referer: http://igniter.loc/register
+[Mon Oct 27 18:37:37.854816 2014] [:error] [pid 12654] [client 127.0.0.1:60429] PHP Fatal error:  Call to undefined function hash_pass() in /var/www/igniter.loc/application/models/model_users.php on line 77, referer: http://igniter.loc/register
+[Mon Oct 27 18:37:37.854865 2014] [:error] [pid 12654] [client 127.0.0.1:60429] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 18:37:37.854879 2014] [:error] [pid 12654] [client 127.0.0.1:60429] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 18:37:37.854885 2014] [:error] [pid 12654] [client 127.0.0.1:60429] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 18:37:37.854891 2014] [:error] [pid 12654] [client 127.0.0.1:60429] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 18:37:37.854896 2014] [:error] [pid 12654] [client 127.0.0.1:60429] PHP   4. Posthandler->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 18:37:37.854901 2014] [:error] [pid 12654] [client 127.0.0.1:60429] PHP   5. Model_users->addMemberMan() /var/www/igniter.loc/application/controllers/posthandler.php:41, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:06.337184 2014] [:error] [pid 12684] [client 127.0.0.1:60644] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result() in /var/www/igniter.loc/application/models/model_users.php on line 109, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:06.337227 2014] [:error] [pid 12684] [client 127.0.0.1:60644] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:06.337238 2014] [:error] [pid 12684] [client 127.0.0.1:60644] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:06.337246 2014] [:error] [pid 12684] [client 127.0.0.1:60644] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:06.337251 2014] [:error] [pid 12684] [client 127.0.0.1:60644] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:06.337257 2014] [:error] [pid 12684] [client 127.0.0.1:60644] PHP   4. Posthandler->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:06.337262 2014] [:error] [pid 12684] [client 127.0.0.1:60644] PHP   5. Model_users->addMemberMan() /var/www/igniter.loc/application/controllers/posthandler.php:41, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:06.337267 2014] [:error] [pid 12684] [client 127.0.0.1:60644] PHP   6. Model_users->authorization() /var/www/igniter.loc/application/models/model_users.php:93, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:42.385507 2014] [:error] [pid 12757] [client 127.0.0.1:60653] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result_array() in /var/www/igniter.loc/application/models/model_users.php on line 109, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:42.385557 2014] [:error] [pid 12757] [client 127.0.0.1:60653] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:42.385569 2014] [:error] [pid 12757] [client 127.0.0.1:60653] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:42.385575 2014] [:error] [pid 12757] [client 127.0.0.1:60653] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:42.385600 2014] [:error] [pid 12757] [client 127.0.0.1:60653] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:42.385606 2014] [:error] [pid 12757] [client 127.0.0.1:60653] PHP   4. Posthandler->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:42.385611 2014] [:error] [pid 12757] [client 127.0.0.1:60653] PHP   5. Model_users->addMemberMan() /var/www/igniter.loc/application/controllers/posthandler.php:41, referer: http://igniter.loc/register
+[Mon Oct 27 19:12:42.385617 2014] [:error] [pid 12757] [client 127.0.0.1:60653] PHP   6. Model_users->authorization() /var/www/igniter.loc/application/models/model_users.php:93, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:01.109906 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result_array() in /var/www/igniter.loc/application/models/model_users.php on line 109, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:01.110338 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:01.110366 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:01.110373 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:01.110378 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:01.110384 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   4. Posthandler->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:01.110389 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   5. Model_users->addMemberMan() /var/www/igniter.loc/application/controllers/posthandler.php:41, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:01.110395 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   6. Model_users->authorization() /var/www/igniter.loc/application/models/model_users.php:93, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:05.989567 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result_array() in /var/www/igniter.loc/application/models/model_users.php on line 109, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:05.989608 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:05.989618 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:05.989624 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:05.989631 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:05.989638 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   4. Posthandler->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:05.989644 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   5. Model_users->addMemberMan() /var/www/igniter.loc/application/controllers/posthandler.php:41, referer: http://igniter.loc/register
+[Mon Oct 27 19:13:05.989649 2014] [:error] [pid 12674] [client 127.0.0.1:60654] PHP   6. Model_users->authorization() /var/www/igniter.loc/application/models/model_users.php:93, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:07.838093 2014] [:error] [pid 9595] [client 127.0.0.1:60655] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result_array() in /var/www/igniter.loc/application/models/model_users.php on line 109, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:07.838179 2014] [:error] [pid 9595] [client 127.0.0.1:60655] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:07.838209 2014] [:error] [pid 9595] [client 127.0.0.1:60655] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:07.838230 2014] [:error] [pid 9595] [client 127.0.0.1:60655] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:07.838248 2014] [:error] [pid 9595] [client 127.0.0.1:60655] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:07.838267 2014] [:error] [pid 9595] [client 127.0.0.1:60655] PHP   4. Posthandler->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:07.838287 2014] [:error] [pid 9595] [client 127.0.0.1:60655] PHP   5. Model_users->addMemberMan() /var/www/igniter.loc/application/controllers/posthandler.php:41, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:07.838306 2014] [:error] [pid 9595] [client 127.0.0.1:60655] PHP   6. Model_users->authorization() /var/www/igniter.loc/application/models/model_users.php:93, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:17.335198 2014] [:error] [pid 7702] [client 127.0.0.1:60656] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result() in /var/www/igniter.loc/application/models/model_users.php on line 109, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:17.335258 2014] [:error] [pid 7702] [client 127.0.0.1:60656] PHP Stack trace:, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:17.335276 2014] [:error] [pid 7702] [client 127.0.0.1:60656] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:17.335287 2014] [:error] [pid 7702] [client 127.0.0.1:60656] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:17.335295 2014] [:error] [pid 7702] [client 127.0.0.1:60656] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:17.335305 2014] [:error] [pid 7702] [client 127.0.0.1:60656] PHP   4. Posthandler->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:17.335313 2014] [:error] [pid 7702] [client 127.0.0.1:60656] PHP   5. Model_users->addMemberMan() /var/www/igniter.loc/application/controllers/posthandler.php:41, referer: http://igniter.loc/register
+[Mon Oct 27 19:14:17.335321 2014] [:error] [pid 7702] [client 127.0.0.1:60656] PHP   6. Model_users->authorization() /var/www/igniter.loc/application/models/model_users.php:93, referer: http://igniter.loc/register
+[Mon Oct 27 20:02:15.034529 2014] [:error] [pid 12351] [client 127.0.0.1:60955] PHP Parse error:  syntax error, unexpected '$a' (T_VARIABLE) in /var/www/igniter.loc/application/controllers/user.php on line 16, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:02:15.034586 2014] [:error] [pid 12351] [client 127.0.0.1:60955] PHP Stack trace:, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:02:15.034598 2014] [:error] [pid 12351] [client 127.0.0.1:60955] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:02:15.034606 2014] [:error] [pid 12351] [client 127.0.0.1:60955] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:02:58.499911 2014] [:error] [pid 12645] [client 127.0.0.1:60963] PHP Fatal error:  Default value for parameters with a class type hint can only be NULL in /var/www/igniter.loc/application/models/model_users.php on line 128, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:02:58.500048 2014] [:error] [pid 12645] [client 127.0.0.1:60963] PHP Stack trace:, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:02:58.500090 2014] [:error] [pid 12645] [client 127.0.0.1:60963] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:02:58.500110 2014] [:error] [pid 12645] [client 127.0.0.1:60963] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:02:58.500134 2014] [:error] [pid 12645] [client 127.0.0.1:60963] PHP   3. User->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:02:58.500154 2014] [:error] [pid 12645] [client 127.0.0.1:60963] PHP   4. Main->__construct() /var/www/igniter.loc/application/controllers/user.php:12, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:02:58.500172 2014] [:error] [pid 12645] [client 127.0.0.1:60963] PHP   5. CI_Loader->model() /var/www/igniter.loc/application/controllers/parent/main.php:18, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:04:39.596553 2014] [:error] [pid 12654] [client 127.0.0.1:60995] PHP Fatal error:  Default value for parameters with a class type hint can only be NULL in /var/www/igniter.loc/application/models/model_users.php on line 128, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:04:39.596603 2014] [:error] [pid 12654] [client 127.0.0.1:60995] PHP Stack trace:, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:04:39.596614 2014] [:error] [pid 12654] [client 127.0.0.1:60995] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:04:39.596624 2014] [:error] [pid 12654] [client 127.0.0.1:60995] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:04:39.596631 2014] [:error] [pid 12654] [client 127.0.0.1:60995] PHP   3. User->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:04:39.596637 2014] [:error] [pid 12654] [client 127.0.0.1:60995] PHP   4. Main->__construct() /var/www/igniter.loc/application/controllers/user.php:12, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:04:39.596643 2014] [:error] [pid 12654] [client 127.0.0.1:60995] PHP   5. CI_Loader->model() /var/www/igniter.loc/application/controllers/parent/main.php:18, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:49.878928 2014] [:error] [pid 12351] [client 127.0.0.1:32778] PHP Parse error:  syntax error, unexpected '(integer)' (int) (T_INT_CAST), expecting '&' or variable (T_VARIABLE) in /var/www/igniter.loc/application/models/model_users.php on line 128, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:49.879006 2014] [:error] [pid 12351] [client 127.0.0.1:32778] PHP Stack trace:, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:49.879039 2014] [:error] [pid 12351] [client 127.0.0.1:32778] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:49.879059 2014] [:error] [pid 12351] [client 127.0.0.1:32778] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:49.879079 2014] [:error] [pid 12351] [client 127.0.0.1:32778] PHP   3. User->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:49.879099 2014] [:error] [pid 12351] [client 127.0.0.1:32778] PHP   4. Main->__construct() /var/www/igniter.loc/application/controllers/user.php:12, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:49.879118 2014] [:error] [pid 12351] [client 127.0.0.1:32778] PHP   5. CI_Loader->model() /var/www/igniter.loc/application/controllers/parent/main.php:18, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:59.669112 2014] [:error] [pid 12674] [client 127.0.0.1:32779] PHP Parse error:  syntax error, unexpected '(int)' (int) (T_INT_CAST), expecting '&' or variable (T_VARIABLE) in /var/www/igniter.loc/application/models/model_users.php on line 128, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:59.669230 2014] [:error] [pid 12674] [client 127.0.0.1:32779] PHP Stack trace:, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:59.669264 2014] [:error] [pid 12674] [client 127.0.0.1:32779] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:59.669284 2014] [:error] [pid 12674] [client 127.0.0.1:32779] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:59.669305 2014] [:error] [pid 12674] [client 127.0.0.1:32779] PHP   3. User->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:59.669324 2014] [:error] [pid 12674] [client 127.0.0.1:32779] PHP   4. Main->__construct() /var/www/igniter.loc/application/controllers/user.php:12, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 20:05:59.669343 2014] [:error] [pid 12674] [client 127.0.0.1:32779] PHP   5. CI_Loader->model() /var/www/igniter.loc/application/controllers/parent/main.php:18, referer: http://igniter.loc/id_39dd04a7
+[Mon Oct 27 23:30:49.768983 2014] [:error] [pid 19002] [client 127.0.0.1:35175] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::count() in /var/www/igniter.loc/application/models/model_users.php on line 198
+[Mon Oct 27 23:30:49.778378 2014] [:error] [pid 19002] [client 127.0.0.1:35175] PHP Stack trace:
+[Mon Oct 27 23:30:49.778454 2014] [:error] [pid 19002] [client 127.0.0.1:35175] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Mon Oct 27 23:30:49.778474 2014] [:error] [pid 19002] [client 127.0.0.1:35175] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Mon Oct 27 23:30:49.778492 2014] [:error] [pid 19002] [client 127.0.0.1:35175] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Mon Oct 27 23:30:49.778512 2014] [:error] [pid 19002] [client 127.0.0.1:35175] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Mon Oct 27 23:30:49.778531 2014] [:error] [pid 19002] [client 127.0.0.1:35175] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17
+[Mon Oct 27 23:43:49.845546 2014] [:error] [pid 19169] [client 127.0.0.1:35307] PHP Fatal error:  Call to a member function result_array() on a non-object in /var/www/igniter.loc/application/models/model_users.php on line 203, referer: http://igniter.loc/id_3b7f04dd
+[Mon Oct 27 23:43:49.845637 2014] [:error] [pid 19169] [client 127.0.0.1:35307] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04dd
+[Mon Oct 27 23:43:49.845656 2014] [:error] [pid 19169] [client 127.0.0.1:35307] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04dd
+[Mon Oct 27 23:43:49.845666 2014] [:error] [pid 19169] [client 127.0.0.1:35307] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04dd
+[Mon Oct 27 23:43:49.845673 2014] [:error] [pid 19169] [client 127.0.0.1:35307] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04dd
+[Mon Oct 27 23:43:49.845683 2014] [:error] [pid 19169] [client 127.0.0.1:35307] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04dd
+[Mon Oct 27 23:43:49.845692 2014] [:error] [pid 19169] [client 127.0.0.1:35307] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04dd
+[Mon Oct 27 23:44:12.167230 2014] [:error] [pid 19166] [client 127.0.0.1:35308] PHP Fatal error:  Call to a member function result_array() on a non-object in /var/www/igniter.loc/application/models/model_users.php on line 203
+[Mon Oct 27 23:44:12.167323 2014] [:error] [pid 19166] [client 127.0.0.1:35308] PHP Stack trace:
+[Mon Oct 27 23:44:12.187885 2014] [:error] [pid 19166] [client 127.0.0.1:35308] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Mon Oct 27 23:44:12.187931 2014] [:error] [pid 19166] [client 127.0.0.1:35308] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Mon Oct 27 23:44:12.187950 2014] [:error] [pid 19166] [client 127.0.0.1:35308] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Mon Oct 27 23:44:12.187969 2014] [:error] [pid 19166] [client 127.0.0.1:35308] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359
+[Mon Oct 27 23:44:12.187989 2014] [:error] [pid 19166] [client 127.0.0.1:35308] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17
+[Tue Oct 28 00:26:37.149643 2014] [:error] [pid 19428] [client 127.0.0.1:35748] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:26:37.163287 2014] [:error] [pid 19428] [client 127.0.0.1:35748] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:26:37.163366 2014] [:error] [pid 19428] [client 127.0.0.1:35748] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:26:37.163388 2014] [:error] [pid 19428] [client 127.0.0.1:35748] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:26:37.163407 2014] [:error] [pid 19428] [client 127.0.0.1:35748] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:26:37.163426 2014] [:error] [pid 19428] [client 127.0.0.1:35748] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:26:37.163446 2014] [:error] [pid 19428] [client 127.0.0.1:35748] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:26:37.163464 2014] [:error] [pid 19428] [client 127.0.0.1:35748] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:201, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:12.899408 2014] [:error] [pid 19431] [client 127.0.0.1:35749] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:12.899458 2014] [:error] [pid 19431] [client 127.0.0.1:35749] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:12.899470 2014] [:error] [pid 19431] [client 127.0.0.1:35749] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:12.899476 2014] [:error] [pid 19431] [client 127.0.0.1:35749] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:12.899482 2014] [:error] [pid 19431] [client 127.0.0.1:35749] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:12.899488 2014] [:error] [pid 19431] [client 127.0.0.1:35749] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:12.899493 2014] [:error] [pid 19431] [client 127.0.0.1:35749] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:12.899498 2014] [:error] [pid 19431] [client 127.0.0.1:35749] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:24.886080 2014] [:error] [pid 19498] [client 127.0.0.1:35750] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:24.893346 2014] [:error] [pid 19498] [client 127.0.0.1:35750] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:24.893428 2014] [:error] [pid 19498] [client 127.0.0.1:35750] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:24.893448 2014] [:error] [pid 19498] [client 127.0.0.1:35750] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:24.893468 2014] [:error] [pid 19498] [client 127.0.0.1:35750] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:24.893488 2014] [:error] [pid 19498] [client 127.0.0.1:35750] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:24.893509 2014] [:error] [pid 19498] [client 127.0.0.1:35750] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:27:24.893529 2014] [:error] [pid 19498] [client 127.0.0.1:35750] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:06.492921 2014] [:error] [pid 19002] [client 127.0.0.1:35751] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:06.493002 2014] [:error] [pid 19002] [client 127.0.0.1:35751] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:06.493033 2014] [:error] [pid 19002] [client 127.0.0.1:35751] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:06.493053 2014] [:error] [pid 19002] [client 127.0.0.1:35751] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:06.493071 2014] [:error] [pid 19002] [client 127.0.0.1:35751] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:06.493091 2014] [:error] [pid 19002] [client 127.0.0.1:35751] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:06.493110 2014] [:error] [pid 19002] [client 127.0.0.1:35751] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:06.493129 2014] [:error] [pid 19002] [client 127.0.0.1:35751] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:15.582759 2014] [:error] [pid 19396] [client 127.0.0.1:35752] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:15.582850 2014] [:error] [pid 19396] [client 127.0.0.1:35752] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:15.582881 2014] [:error] [pid 19396] [client 127.0.0.1:35752] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:15.582901 2014] [:error] [pid 19396] [client 127.0.0.1:35752] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:15.582918 2014] [:error] [pid 19396] [client 127.0.0.1:35752] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:15.582938 2014] [:error] [pid 19396] [client 127.0.0.1:35752] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:15.582957 2014] [:error] [pid 19396] [client 127.0.0.1:35752] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:15.583013 2014] [:error] [pid 19396] [client 127.0.0.1:35752] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:21.727558 2014] [:error] [pid 19491] [client 127.0.0.1:35753] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:21.727612 2014] [:error] [pid 19491] [client 127.0.0.1:35753] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:21.727623 2014] [:error] [pid 19491] [client 127.0.0.1:35753] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:21.727629 2014] [:error] [pid 19491] [client 127.0.0.1:35753] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:21.727634 2014] [:error] [pid 19491] [client 127.0.0.1:35753] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:21.727641 2014] [:error] [pid 19491] [client 127.0.0.1:35753] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:21.727647 2014] [:error] [pid 19491] [client 127.0.0.1:35753] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:21.727652 2014] [:error] [pid 19491] [client 127.0.0.1:35753] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:30.935752 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:30.935805 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:30.935816 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:30.935822 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:30.935827 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:30.935833 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:30.935839 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:30.935845 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.593747 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.593792 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.593803 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.593836 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.593842 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.593848 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.593853 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.593858 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.813104 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.813146 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.813157 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.813163 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.813169 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.813174 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.813180 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:31.813185 2014] [:error] [pid 19387] [client 127.0.0.1:35754] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:43.566028 2014] [:error] [pid 19490] [client 127.0.0.1:35755] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:43.566123 2014] [:error] [pid 19490] [client 127.0.0.1:35755] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:43.566153 2014] [:error] [pid 19490] [client 127.0.0.1:35755] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:43.566174 2014] [:error] [pid 19490] [client 127.0.0.1:35755] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:43.566192 2014] [:error] [pid 19490] [client 127.0.0.1:35755] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:43.566212 2014] [:error] [pid 19490] [client 127.0.0.1:35755] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:43.566232 2014] [:error] [pid 19490] [client 127.0.0.1:35755] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:43.566251 2014] [:error] [pid 19490] [client 127.0.0.1:35755] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:49.851581 2014] [:error] [pid 19425] [client 127.0.0.1:35756] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:49.851667 2014] [:error] [pid 19425] [client 127.0.0.1:35756] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:49.851698 2014] [:error] [pid 19425] [client 127.0.0.1:35756] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:49.851717 2014] [:error] [pid 19425] [client 127.0.0.1:35756] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:49.851735 2014] [:error] [pid 19425] [client 127.0.0.1:35756] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:49.851754 2014] [:error] [pid 19425] [client 127.0.0.1:35756] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:49.851774 2014] [:error] [pid 19425] [client 127.0.0.1:35756] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:49.851792 2014] [:error] [pid 19425] [client 127.0.0.1:35756] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:59.355928 2014] [:error] [pid 19434] [client 127.0.0.1:35757] PHP Fatal error:  Cannot access private property User::$userInfo in /var/www/igniter.loc/system/core/Model.php on line 51, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:59.355981 2014] [:error] [pid 19434] [client 127.0.0.1:35757] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:59.355992 2014] [:error] [pid 19434] [client 127.0.0.1:35757] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:59.355998 2014] [:error] [pid 19434] [client 127.0.0.1:35757] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:59.356004 2014] [:error] [pid 19434] [client 127.0.0.1:35757] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:59.356009 2014] [:error] [pid 19434] [client 127.0.0.1:35757] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:59.356015 2014] [:error] [pid 19434] [client 127.0.0.1:35757] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:28:59.356020 2014] [:error] [pid 19434] [client 127.0.0.1:35757] PHP   6. CI_Model->__get() /var/www/igniter.loc/application/controllers/user.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:30:21.260136 2014] [:error] [pid 19428] [client 127.0.0.1:35758] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/igniter.loc/application/models/model_users.php on line 201, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:30:21.260177 2014] [:error] [pid 19428] [client 127.0.0.1:35758] PHP Stack trace:, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:30:21.260187 2014] [:error] [pid 19428] [client 127.0.0.1:35758] PHP   1. {main}() /var/www/igniter.loc/index.php:0, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:30:21.260194 2014] [:error] [pid 19428] [client 127.0.0.1:35758] PHP   2. require_once() /var/www/igniter.loc/index.php:202, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:30:21.260199 2014] [:error] [pid 19428] [client 127.0.0.1:35758] PHP   3. call_user_func_array() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:30:21.260224 2014] [:error] [pid 19428] [client 127.0.0.1:35758] PHP   4. User->index() /var/www/igniter.loc/system/core/CodeIgniter.php:359, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 00:30:21.260229 2014] [:error] [pid 19428] [client 127.0.0.1:35758] PHP   5. Model_users->getUserInformation() /var/www/igniter.loc/application/controllers/user.php:17, referer: http://igniter.loc/id_3b7f04cd
+[Tue Oct 28 17:31:40.588750 2014] [:error] [pid 23689] [client 127.0.0.1:41546] PHP Parse error:  syntax error, unexpected '!=' (T_IS_NOT_EQUAL), expecting ')' in /var/www/igniter.loc/application/models/model_users.php on line 124
+[Tue Oct 28 17:31:40.598380 2014] [:error] [pid 23689] [client 127.0.0.1:41546] PHP Stack trace:
+[Tue Oct 28 17:31:40.598462 2014] [:error] [pid 23689] [client 127.0.0.1:41546] PHP   1. {main}() /var/www/igniter.loc/index.php:0
+[Tue Oct 28 17:31:40.598484 2014] [:error] [pid 23689] [client 127.0.0.1:41546] PHP   2. require_once() /var/www/igniter.loc/index.php:202
+[Tue Oct 28 17:31:40.598504 2014] [:error] [pid 23689] [client 127.0.0.1:41546] PHP   3. User->__construct() /var/www/igniter.loc/system/core/CodeIgniter.php:308
+[Tue Oct 28 17:31:40.598523 2014] [:error] [pid 23689] [client 127.0.0.1:41546] PHP   4. Main->__construct() /var/www/igniter.loc/application/controllers/user.php:13
+[Tue Oct 28 17:31:40.598542 2014] [:error] [pid 23689] [client 127.0.0.1:41546] PHP   5. CI_Loader->model() /var/www/igniter.loc/application/controllers/parent/main.php:18
