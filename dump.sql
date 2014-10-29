@@ -10,10 +10,26 @@ Target Server Type    : MYSQL
 Target Server Version : 50537
 File Encoding         : 65001
 
-Date: 2014-10-29 01:39:09
+Date: 2014-10-29 11:30:19
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for `admin`
+-- ----------------------------
+DROP TABLE IF EXISTS `admin`;
+CREATE TABLE `admin` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `email` varchar(255) DEFAULT NULL,
+  `password` char(96) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of admin
+-- ----------------------------
+INSERT INTO `admin` VALUES ('1', 'admin@mail.com', '2b10501d8d78fef7e99d75b785fd316ff2edbf8548ee7b19115174ab203086739c724f9344640e6fede3343203b49273');
 
 -- ----------------------------
 -- Table structure for `ci_sessions`
@@ -32,10 +48,7 @@ CREATE TABLE `ci_sessions` (
 -- ----------------------------
 -- Records of ci_sessions
 -- ----------------------------
-INSERT INTO `ci_sessions` VALUES ('1be6f6ffb5b57498cca5fce682c6588c', '127.0.0.1', 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:30.0) Gecko/20100101 Firefox/30.0', '1414539263', '');
-INSERT INTO `ci_sessions` VALUES ('476ea83c9d3f44c898337cdc1cf8464d', '127.0.0.1', 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:30.0) Gecko/20100101 Firefox/30.0', '1414523370', 'a:7:{s:9:\"user_data\";s:0:\"\";s:2:\"id\";s:1:\"5\";s:5:\"email\";s:20:\"sergeich-81@inbox.me\";s:9:\"logged_in\";b:1;s:10:\"first_name\";s:7:\"Dmitriy\";s:9:\"last_name\";s:8:\"Zakharov\";s:7:\"user_id\";s:11:\"id_3b7f04cd\";}');
-INSERT INTO `ci_sessions` VALUES ('4e5e96b3439d48eb05b3517b95a96e9a', '127.0.0.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36', '1414517824', '');
-INSERT INTO `ci_sessions` VALUES ('78c7308414a391da8eac47011fc00d24', '127.0.0.1', 'Opera/9.80 (X11; Linux x86_64; Edition Linux Mint) Presto/2.12.388 Version/12.16', '1414538821', '');
+INSERT INTO `ci_sessions` VALUES ('aff734f5c1052e29e36625ad1c9bed36', '127.0.0.1', 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:30.0) Gecko/20100101 Firefox/30.0', '1414574726', '');
 
 -- ----------------------------
 -- Table structure for `users`
