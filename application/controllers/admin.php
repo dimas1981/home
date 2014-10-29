@@ -19,12 +19,16 @@ class Admin extends Adminmain {
         }
         public function index()
 	{
+            $this->model_admin->isAuth(TRUE);
+            
             $this->navigation = admin_nav(FALSE);
             
             $this->showPage('admin_auth_template',array());
 	}
         public function members()
         {
+            $this->notAuthCheck();
+            
             $this->title = $this->title." - ".ucfirst($this->gender);
 
             /** Paginator **/
@@ -43,6 +47,8 @@ class Admin extends Adminmain {
         }
         public function editmembers()
         {
+            $this->notAuthCheck();
+            
             $this->title = $this->title." - ".ucfirst($this->gender);
             
             if($this->gender == 'man'):
@@ -52,6 +58,18 @@ class Admin extends Adminmain {
             endif;
         }
         
+        private function notAuthCheck()
+        {
+            if(!$this->model_admin->isAuth())
+            {
+                redirect('/admin'); die;
+            }
+        }
+        function logout()
+        {
+            $this->session->sess_destroy();
+            redirect('/admin'); die;
+        }
 }
 
 /* End of file admin.php */

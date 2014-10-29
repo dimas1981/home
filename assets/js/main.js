@@ -374,7 +374,7 @@ $(window).load(function(){
     var LoginPasslField = jQuery('.login-form input#password');
     var LoginErrorBox   = jQuery('#error-box ul');
    
-    jQuery('.login-form .login-button').click(function(){
+    jQuery('.login-form .login-button-members').click(function(){
 
         LoginErrorBox.html('');
         
@@ -414,5 +414,53 @@ $(window).load(function(){
             return false;
      });       
     
+
+// Admin login
+    var AdminLoginEmailField = jQuery('.admin-login-form input#email');
+    var AdminLoginPasslField = jQuery('.admin-login-form input#password');
+    var AdminLoginErrorBox   = jQuery('.admin-error-box ul');
+
+    jQuery('.login-form .login-button-admin').click(function(){
+        
+        AdminLoginErrorBox.html('');
+        
+            $.post("/ajax", 
+            { 
+                adminauth:  true, 
+                email:      AdminLoginEmailField.val(),
+                pass:       AdminLoginPasslField.val() 
+            },
+                function(data){
+                    
+                   var AdminLoginErrorObj = JSON.parse(data);
+                    
+                        if(AdminLoginErrorObj['flag'] == 'false')
+                        {
+                            if(AdminLoginErrorObj['errormail'] != '')
+                            {
+                               AdminLoginErrorBox.append("<li>" + 
+                                        AdminLoginErrorObj['errormail'] + "</li>");
+                            }
+                            if(AdminLoginErrorObj['errorpass'] != '')
+                            {
+                                AdminLoginErrorBox.append("<li>" + 
+                                        AdminLoginErrorObj['errorpass'] + "</li>");
+                            }
+                            if(AdminLoginErrorObj['errormatch'] != '')
+                            {
+                                AdminLoginErrorBox.append("<li>" + 
+                                        AdminLoginErrorObj['errormatch'] + "</li>");
+                            }
+                        }
+                        else
+                        {
+                           jQuery('form.login-form').submit();
+                        }
+            }, "text");
+            
+        return false;
+    });
+
+
 
 });

@@ -9,6 +9,7 @@ class Posthandler extends CI_Controller {
             $this->load->library('session');
             $this->load->database();
             $this->load->model('model_users');
+            $this->load->model('model_admin');
             $this->load->helper('url');
             $this->load->helper('custom');
             
@@ -75,7 +76,19 @@ class Posthandler extends CI_Controller {
                 {
                     redirect('/');
                 }
-                
+            }
+            if($this->input->post('admin') == 'auth')
+            {
+                if($this->model_admin->authorization(
+                                $this->input->post('email'), 
+                                $this->input->post('password')))
+                {
+                    $this->model_admin->isAuth(TRUE);
+                }
+                else
+                {
+                    redirect('/');
+                }
             }
 	}
 }

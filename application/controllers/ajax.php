@@ -6,6 +6,8 @@ class Ajax extends Main {
         public function __construct(){
             parent::__construct();
             
+            $this->load->model('model_admin');
+            
                 if(!$_POST) die(redirect('/', 'refresh'));
         }
 	public function index()
@@ -24,6 +26,10 @@ class Ajax extends Main {
             if($this->input->post('auth'))
             {
                 $this->model_users->loginValidation($this->input->post());
+            }
+            if($this->input->post('adminauth'))
+            {
+                $this->model_admin->adminloginValidation($this->input->post());
             }
             if($this->input->post('edit'))
             {

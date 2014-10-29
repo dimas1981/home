@@ -47,6 +47,7 @@ $route['admin/(man|women)']                        = "admin/members";
 $route['admin/(man|women)/edit/id_([a-z0-9]{8})']  = "admin/editmembers";
 $route['post']                                     = "posthandler/index";
 $route['logout']                                   = "user/logout";
+$route['admin/logout']                             = "admin/logout";
 $route['404_override']                             = '';
 
 

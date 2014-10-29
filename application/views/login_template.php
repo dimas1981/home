@@ -11,7 +11,7 @@
             <input class="" type="password" name="password" id="password" placeholder="Please enter password" />
         </div>
                 <div class="ym-fbox login-button-box">
-                      <a href="#" class="ym-button login-button">Login</a>
+                      <a href="#" class="ym-button login-button login-button-members">Login</a>
                 </div>
         <a class="register-link" href="/register">Register</a>
     </form>

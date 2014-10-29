@@ -18,6 +18,7 @@ class Adminmain extends CI_Controller {
             $this->load->library('parser');
             $this->load->database();
             $this->load->model('model_users');
+            $this->load->model('model_admin');
             $this->load->helper('url');
             $this->load->helper('custom');
             $this->load->library('paginator');

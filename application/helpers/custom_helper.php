@@ -15,7 +15,7 @@ if ( ! function_exists('admin_nav'))
                             <ul style="visibility: visible">
                              <li $man><a href="/admin/man/">Man</a></li>
                              <li $women><a href="/admin/women/">Women</a></li>
-                             <li style="margin-left: 100px;"><a href="/logout">Logout</a></li>
+                             <li style="margin-left: 100px;"><a href="/admin/logout">Logout</a></li>
                            </ul>
 NAV;
             else:
@@ -23,7 +23,7 @@ NAV;
                             <ul style="visibility: hidden">
                              <li><a href="/admin/man/">Man</a></li>
                              <li><a href="/admin/women/">Women</a></li>
-                             <li style="margin-left: 100px;"><a href="/logout">Logout</a></li>
+                             <li style="margin-left: 100px;"><a href="/admin/logout">Logout</a></li>
                            </ul>
 NAV;
             endif;
